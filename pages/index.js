@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Kalakal</title>
+        <title>Resiklo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,7 +21,7 @@ export default function Home() {
         <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
             <a className="text-white no-underline hover:text-white hover:no-underline" href="#">
-              <span className="text-2xl pl-2"><i className="em em-grinning" /> Kalakal</span>
+              <span className="text-2xl pl-2"><i className="em em-grinning" /> Resiklo</span>
             </a>
           </div>
           <div className="block lg:hidden">
@@ -55,7 +55,7 @@ export default function Home() {
 
         <h1 className="text-6xl font-bold">
           <a className="text-blue-600" href="https://nextjs.org">
-            Kalakal
+            Resiklo
           </a>
         </h1>
 
