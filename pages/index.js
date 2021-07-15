@@ -46,7 +46,7 @@ export default function Home() {
         <div className="container m-auto flex px-5 py-5 lg:py-24 md:flex-row flex-col-reverse items-center h-screen">
           <div className="w-full lg:w-1/2 lg:px-24 md:px-16 ">
             <div className="flex flex-col md:items-start md:text-left items-center text-center mx-auto">
-              <h1 className="text-5xl lg:text-7xl mb-11 font-bold text-white">
+              <h1 className="text-5xl lg:text-7xl mb-5 font-bold text-white">
                 Quote here
               </h1>
               <p className="mb-20 leading-relaxed text-white text-lg">
@@ -95,7 +95,7 @@ export default function Home() {
                   src="/assets/img/500x500.png"
                 />
                 <div className="w-full mt-6">
-                  <h3 className="font-rubik font-bold text-5xl text-primary-dark mb-3">
+                  <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Service 1
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
@@ -155,7 +155,7 @@ export default function Home() {
                   src="/assets/img/500x500.png"
                 />
                 <div className="w-full mt-6">
-                  <h3 className="font-rubik font-bold text-5xl text-primary-dark mb-3">
+                  <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Service 2
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
@@ -215,7 +215,7 @@ export default function Home() {
                   src="/assets/img/500x500.png"
                 />
                 <div className="w-full mt-6">
-                  <h3 className="font-rubik font-bold text-5xl text-primary-dark mb-3">
+                  <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Service 3
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
@@ -271,7 +271,7 @@ export default function Home() {
       <section id="selling" className="bg-secondary px-10">
         <div className="container mx-auto px-5 py-5 lg:py-24">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="font-rubik font-bold text-7xl mb-4 text-white">
+            <h1 className="font-rubik font-bold text-6xl mb-4 text-white">
               See What&apos;s Selling
             </h1>
             <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg text-white">
