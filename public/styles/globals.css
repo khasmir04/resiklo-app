@@ -11,3 +11,20 @@ h2,
 h3 {
   font-family: "Rubik", sans-serif;
 }
+
+.slick-slide > div {
+  margin: 0 56px;
+}
+.slick-list {
+  margin: 0 -56px;
+  box-sizing: initial;
+  padding: 50px 0px;
+}
+
+/* .slick-dots > ul > li > button {
+  text-color: yellow;
+} */
+
+.my-slick-dots {
+  color: yellow !important;
+}

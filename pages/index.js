@@ -1,9 +1,44 @@
 import LayoutHome from '../components/Layout/LayoutHome';
+import React from "react";
+import Slider from "react-slick";
 
 import Image from 'next/image'
 
 export default function Home() {
-
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dotsClass: "slick-dots slick-thumb",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
     <LayoutHome title="Home">
       <section id="home" className="bg-primary">
@@ -25,7 +60,7 @@ export default function Home() {
         </div>
       </section>
       <section id="services">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-5 lg:py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="font-rubik font-bold text-7xl mb-4 text-primary-dark uppercase">Our Services</h1>
             <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg">
@@ -114,8 +149,93 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="selling">
-
+      <section id="selling" className="bg-secondary">
+        <div className="container mx-auto px-5 py-5 lg:py-24">
+          <div className="flex flex-col text-center w-full mb-20">
+            <h1 className="font-rubik font-bold text-7xl mb-4 text-white">See What&apos;s Selling</h1>
+            <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg text-white">
+              Currently at the market, here’s what been recently sold.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            </p>
+          </div>
+          <Slider {...settings} className="mb-16">
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+            <div className="shadow-xl">
+              <div className="bg-white rounded-[20px] rounded-b-none p-6">
+                <p className="text-center font-rubik font-medium text-2xl">Plastic</p>
+                <p className="text-center font-dmsans text-lg">Sold by (Nickname) last (date)</p>
+              </div>
+              <Image width={321} height={213} layout="responsive" src='/assets/img/500x500.png' className="object-cover"></Image>
+              <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
+            </div>
+          </Slider>
+          <div className="text-center">
+            <button className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-primary-dark rounded-[20px] text-lg uppercase">Visit the Market &gt;</button>
+          </div>
+        </div>
       </section>
     </LayoutHome>
   )
