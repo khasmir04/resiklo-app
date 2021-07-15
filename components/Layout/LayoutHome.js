@@ -3,11 +3,7 @@ import Head from "next/head";
 import Header from "../Header";
 import Footer from "../Footer";
 
-
-const LayoutHome = ({
-  title,
-  children,
-}) => {
+const LayoutHome = ({ title, children }) => {
   return (
     <>
       <Head>
