@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(true);
@@ -25,22 +26,34 @@ const Header = () => {
         id="nav-content">
         <ul className="list-reset lg:flex justify-start flex-1 items-center">
           <li className="mr-3 ml-auto">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">Home</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">Home</a>
+            </Link>
           </li>
           <li className="mr-3">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">Market</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">Market</a>
+            </Link>
           </li>
           <li className="mr-3">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">FAQs</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">FAQs</a>
+            </Link>
           </li>
           <li className="mr-3">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">Education</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">Education</a>
+            </Link>
           </li>
           <li className="mr-3">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">Contact Us</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">Contact Us</a>
+            </Link>
           </li>
           <li className="mr-3 ml-auto">
-            <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4" href="#">Log In</a>
+            <Link href="/#">
+              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-2xl py-2 px-4">Log In</a>
+            </Link>
           </li>
           <li className="mr-3 ">
             <a className="inline-block text-white no-underline bg-secondary rounded-[20px] uppercase hover:text-black hover:bg-white py-2 px-4" href="#">Get Started</a>
