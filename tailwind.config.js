@@ -3,7 +3,34 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          light: '#45BF55',
+          DEFAULT: '#45BF55',
+          dark: '#45BF55',
+        },
+        secondary: {
+          light: '#97ED8A',
+          DEFAULT: '#97ED8A',
+          dark: '#97ED8A',
+        },
+        tertiary: {
+          light: '#85d7ff',
+          DEFAULT: '#1fb6ff',
+          dark: '#009eeb',
+        },
+        black: {
+          light: '#00261C',
+          DEFAULT: '#00261C',
+          dark: '#00261C',
+        },
+      },
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif'],
+        'dmsans': ['DM Sans', 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},
