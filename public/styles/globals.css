@@ -12,6 +12,11 @@ h3 {
   font-family: "Rubik", sans-serif;
 }
 
+#contact {
+  background-image: url(../assets/img/leaves.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .slick-slide > div {
   margin: 0 10px;
 }
