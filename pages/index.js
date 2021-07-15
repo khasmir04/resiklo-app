@@ -47,7 +47,7 @@ export default function Home() {
           <div className="w-full lg:w-1/2 lg:px-24 md:px-16 ">
             <div className="flex flex-col md:items-start md:text-left items-center text-center mx-auto">
               <h1 className="text-5xl lg:text-7xl mb-5 font-bold text-white">
-                Quote here
+                Reduce, Reuse, Recycle
               </h1>
               <p className="mb-20 leading-relaxed text-white text-lg">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -74,7 +74,7 @@ export default function Home() {
       <section id="services">
         <div className="container px-5 py-5 lg:py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="font-rubik font-bold text-6xl mb-4 text-primary-dark uppercase">
+            <h1 className="font-rubik font-bold text-6xl mb-4 text-primary-dark">
               Our Services
             </h1>
             <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg">
@@ -269,12 +269,19 @@ export default function Home() {
         </div>
       </section>
       <section id="selling" className="bg-secondary px-10">
+        {/* <Image
+          width={321}
+          height={213}
+          layout="responsive"
+          src="/assets/img/leaves.png"
+          className=""
+        ></Image> */}
         <div className="container mx-auto px-5 py-5 lg:py-24">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="font-rubik font-bold text-6xl mb-4 text-white">
+            <h1 className="font-rubik font-bold text-6xl mb-4 text-primary-dark">
               See What&apos;s Selling
             </h1>
-            <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg text-white">
+            <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg text-black">
               Currently at the market, here’s what been recently sold. Lorem
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -284,7 +291,7 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Plastics
                 </p>
                 <p className="text-center font-dmsans text-lg">
                   Sold by (Nickname) last (date)
@@ -302,7 +309,7 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Bottles
                 </p>
                 <p className="text-center font-dmsans text-lg">
                   Sold by (Nickname) last (date)
@@ -320,7 +327,7 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Papers
                 </p>
                 <p className="text-center font-dmsans text-lg">
                   Sold by (Nickname) last (date)
@@ -445,7 +452,7 @@ export default function Home() {
             </div>
           </Slider>
           <div className="text-center">
-            <SolidBlack>Visit the Market &gt;</SolidBlack>
+            <SolidBlack>go to the market</SolidBlack>
           </div>
         </div>
       </section>

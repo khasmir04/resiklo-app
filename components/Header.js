@@ -9,7 +9,7 @@ const Header = () => {
     setNavbar(!navbar);
   };
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-primary p-6 fixed w-full z-10 top-0">
+    <nav className="flex items-center justify-between flex-wrap bg-primary p-4 fixed w-full z-10 top-0 shadow">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <a
           className="text-white no-underline hover:text-white hover:no-underline"
@@ -24,7 +24,7 @@ const Header = () => {
         <button
           onClick={() => toggleNavbar()}
           id="nav-toggle"
-          className="flex items-center px-3 py-2 text-secondary"
+          className="flex items-center px-3 py-2 text-primary-dark"
         >
           <svg
             className="fill-current h-6 w-6"
@@ -46,42 +46,42 @@ const Header = () => {
         <ul className="list-reset lg:flex justify-start flex-1 items-center">
           <li className="mr-3 ml-auto">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Home
               </a>
             </Link>
           </li>
           <li className="mr-3">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Market
               </a>
             </Link>
           </li>
           <li className="mr-3">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 FAQs
               </a>
             </Link>
           </li>
           <li className="mr-3">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Education
               </a>
             </Link>
           </li>
           <li className="mr-3">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Contact Us
               </a>
             </Link>
           </li>
           <li className="mr-3 ml-auto flex">
             <Link href="/#">
-              <a className="inline-block text-white no-underline hover:text-gray-300 hover:text-underline text-xl py-2 px-4">
+              <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Log In
               </a>
             </Link>

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col w-full">
-      <div className="flex flex-col justify-around md:items-center md:flex-row bg-primary-dark px-5 py-24 gap-24">
+      <div className="flex flex-col justify-around md:items-center md:flex-row bg-primary-dark px-5 py-28 gap-24">
         <div className="flex flex-col text-white font-dm text-lg">
           <a href="#home">
             <img src="" alt="resiklo" />
@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center h-24 border-t">
+      {/* <div className="flex items-center justify-center h-24 border-t">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -30,7 +30,7 @@ const Footer = () => {
           Our Sponsors{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };
