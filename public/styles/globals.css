@@ -28,3 +28,15 @@ h3 {
 .my-slick-dots {
   color: yellow !important;
 }
+
+.slick-arrow {
+  font-size: 28px;
+}
+
+.slick-next {
+  right: 0 !important;
+}
+
+.slick-prev {
+  z-index: 999 !important;
+}
