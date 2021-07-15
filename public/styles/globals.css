@@ -17,6 +17,10 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#map input::placeholder {
+  color: #45bf55;
+}
 .slick-slide > div {
   margin: 0 10px;
 }

@@ -9,7 +9,7 @@ const Header = () => {
     setNavbar(!navbar);
   };
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-primary p-4 fixed w-full z-10 top-0 shadow">
+    <nav className="flex items-center justify-between flex-wrap bg-primary p-4 fixed w-full z-20 top-0 shadow">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <a
           className="text-white no-underline hover:text-white hover:no-underline"
