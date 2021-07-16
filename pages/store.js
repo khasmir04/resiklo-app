@@ -8,7 +8,7 @@ const store = () => {
     <div id="store">
       <LayoutHome title="Shop Profile">
         <div className="flex flex-col items-center">
-          <div className="gallery flex pt-40 w-full justify-center gap-10">
+          <div className="gallery md:flex pt-40 w-full justify-center gap-10">
             <Image
               src="/assets/img/store/main.png"
               alt="resiklo-market"

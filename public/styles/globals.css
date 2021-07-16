@@ -14,7 +14,7 @@ h3 {
 }
 
 #contact {
-  background-image: url(../assets/img/leaves.jpg);
+  background-image: url(../assets/img/contact/leaves.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -60,4 +60,11 @@ h3 {
 
 select {
   padding: 0.6em 1.4em 0.5em 0.8em !important;
+}
+
+#education-climate {
+  background-image: url(../assets/img/education/climate-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

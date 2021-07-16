@@ -7,12 +7,12 @@ const contact = () => {
   return (
     <div id="contact">
       <LayoutHome title="Contact Us">
-        <div className="flex items-center justify-center py-40 backdrop-blur-[3px]">
+        <div className="flex items-center justify-center py-40 backdrop-blur-[1px]">
           <div className="shadow flex flex-col justify-center mx-auto items-center bg-white rounded-2xl py-11 px-5 xl:px-28 w-full max-w-[300px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1100px] gap-10">
-            <h2 className="font-rubik font-bold text-7xl text-primary-dark mb-10">
+            <h2 className="font-rubik font-bold text-6xl md:text-7xl text-primary-dark lg:mb-10">
               Get In Touch
             </h2>
-            <p className="font-dmsans text-lg text-black text-justify md:text-center mb-12">
+            <p className="font-dmsans text-lg text-black text-justify md:text-center lg:mb-12">
               We want to hear your suggestions. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut Lorem ipsum dolor sit amet,
