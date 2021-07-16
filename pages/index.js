@@ -93,7 +93,7 @@ export default function Home() {
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Locations
                   </h3>
-                  <p className="font-dmsans mb-4 text-lg px-20">
+                  <p className="font-dmsans mb-4 text-lg px-3 md:px-5 lg:px-10">
                     {" "}
                     consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -153,7 +153,7 @@ export default function Home() {
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Goals
                   </h3>
-                  <p className="font-dmsans mb-4 text-lg px-20">
+                  <p className="font-dmsans mb-4 text-lg px-3 md:px-5 lg:px-10">
                     {" "}
                     consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -213,7 +213,7 @@ export default function Home() {
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
                     Rewards
                   </h3>
-                  <p className="font-dmsans mb-4 text-lg px-20">
+                  <p className="font-dmsans mb-4 text-lg px-3 md:px-5 lg:px-10">
                     {" "}
                     consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur.
