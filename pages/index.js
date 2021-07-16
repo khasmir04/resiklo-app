@@ -84,10 +84,10 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 w-full h-56 object-cover object-center"
+                  src="/assets/img/home/services-1.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
@@ -144,10 +144,10 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 w-full h-56 object-cover object-center"
+                  src="/assets/img/home/services-2.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
@@ -204,10 +204,10 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 w-full h-56 object-cover object-center"
+                  src="/assets/img/home/services-3.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
