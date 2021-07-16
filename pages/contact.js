@@ -6,49 +6,52 @@ import OutlineGreen from "../components/Buttons/OutlineGreen";
 const contact = () => {
   return (
     <div id="contact">
-      <LayoutHome>
-        <div className="flex items-center justify-center py-40">
-          <div className="shadow flex flex-col justify-center mx-auto items-center bg-white rounded-2xl py-11 px-28 w-[1198px]">
+      <LayoutHome title="Contact">
+        <div className="flex items-center justify-center py-40 backdrop-blur-[3px]">
+          <div className="shadow flex flex-col justify-center mx-auto items-center bg-white rounded-2xl py-11 px-5 xl:px-28 w-full max-w-[300px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1100px] gap-10">
             <h2 className="font-rubik font-bold text-7xl text-primary-dark mb-10">
               Get In Touch
             </h2>
-            <p className="font-dmsans text-lg text-black text-center mb-12">
+            <p className="font-dmsans text-lg text-black text-justify md:text-center mb-12">
               We want to hear your suggestions. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do
             </p>
             <div className="flex flex-col">
-              <div className="flex flex-wrap gap-24">
+              <div className="flex flex-row flex-wrap items-center mb-10">
                 <FormInput
                   type="text"
                   placeholder="Enter your first name"
                   label="First Name"
-                  px="px-3"
-                  py="py-2"
                 ></FormInput>
                 <FormInput
                   type="text"
                   placeholder="Enter your last name"
                   label="Last Name"
-                  px="px-3"
-                  py="py-2"
                 ></FormInput>
                 <FormInput
                   type="email"
                   placeholder="Enter your email"
                   label="Email Address"
-                  px="px-3"
-                  py="py-2"
                 ></FormInput>
               </div>
-              <FormInput
-                type="text"
-                placeholder="Enter your message for us!"
-                label="Message"
-                px="px-5"
-                height="h-32"
-              ></FormInput>
+              <div>
+                <label
+                  htmlFor="message"
+                  className="font-dmsans font-bold text-black text-lg font-medium mb-2"
+                >
+                  Message
+                </label>
+                <textarea
+                  name="message"
+                  id="message"
+                  className="border-2 border-primary rounded-2xl focus:outline-none w-full px-3 py-2 mt-2"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message for us!"
+                ></textarea>
+              </div>
             </div>
             <div className="justify-start items-center">
               <OutlineGreen>send message</OutlineGreen>

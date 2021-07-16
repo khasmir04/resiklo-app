@@ -2,16 +2,16 @@ import React from "react";
 
 const FormInput = (props) => {
   return (
-    <div className="flex flex-col gap-2 mb-12">
+    <div className="flex flex-col mb-5 mr-3 w-full">
       <label
-        className="font-dmsans font-bold text-black text-lg font-medium"
-        for={props.label}
+        className="font-dmsans font-bold text-black text-lg font-medium mb-2"
+        htmlFor={props.label}
       >
         {props.label}
       </label>
       <input
         id={props.label}
-        className={`border-2 border-primary rounded-2xl focus:outline-none w-full ${props.px} ${props.py} ${props.height}`}
+        className={`border-2 border-primary rounded-2xl focus:outline-none w-full py-2 px-3`}
         type={props.type}
         placeholder={props.placeholder}
       ></input>
