@@ -19,14 +19,14 @@ const rewards = () => {
           <div className="mr-5 mb-5 md:mb-0">
             <Link href="/profile/leaderboards">
               <a>
-                <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
+                <SolidBlack className="uppercase">Do Missions &gt;</SolidBlack>
               </a>
             </Link>
           </div>
           <div>
             <Link href="/profile/rewards">
               <a>
-                <SolidBlack className="uppercase">Go to Rewards &gt;</SolidBlack>
+                <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
               </a>
             </Link>
           </div>
