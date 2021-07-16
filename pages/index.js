@@ -269,13 +269,6 @@ export default function Home() {
         </div>
       </section>
       <section id="selling" className="bg-secondary px-10">
-        {/* <Image
-          width={321}
-          height={213}
-          layout="responsive"
-          src="/assets/img/leaves.png"
-          className=""
-        ></Image> */}
         <div className="container mx-auto px-5 py-5 lg:py-24">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="font-rubik font-bold text-6xl mb-4 text-primary-dark">
