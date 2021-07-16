@@ -1,5 +1,5 @@
 import React from "react";
-import OutlineGreen from "../components/Buttons/OutlineGreen";
+import SolidGreenDefault from "../components/Buttons/SolidGreenDefault";
 import LayoutHome from "../components/Layout/LayoutHome";
 import FormInput from "../components/Input/FormInput";
 
@@ -10,12 +10,13 @@ const estimator = () => {
         <div className="flex items-center lg:flex-col justify-center h-screen w-9/12">
           <div className="flex flex-col">
             <h2 className="font-rubik font-bold text-primary-dark text-7xl mb-12">
-              Estimate your Waste
+              Estimate your <br />
+              Waste
             </h2>
             <p className="font-dmsans font-bold text-black text-lg mb-4">
               How much waste do you have?
             </p>
-            <FormInput type="number" placeholder="ex. 1 kilogram/s"></FormInput>
+            <FormInput type="number" placeholder="ex. 1 kg/s"></FormInput>
             <p className="font-dmsans font-bold text-black text-lg mb-4">
               What kind of waste are you selling?
             </p>
@@ -42,8 +43,8 @@ const estimator = () => {
               </select>
             </div>
             <div className="flex gap-5 mt-40">
-              <OutlineGreen>reset</OutlineGreen>
-              <OutlineGreen>estimate</OutlineGreen>
+              <SolidGreenDefault>reset</SolidGreenDefault>
+              <SolidGreenDefault>estimate</SolidGreenDefault>
             </div>
           </div>
           <div className="flex flex-col bg-gray w-3/12"></div>

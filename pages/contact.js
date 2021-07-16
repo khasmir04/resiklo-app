@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutHome from "../components/Layout/LayoutHome";
 import FormInput from "../components/Input/FormInput";
-import OutlineGreen from "../components/Buttons/OutlineGreen";
+import SolidGreenDefault from "../components/Buttons/SolidGreenDefault";
 
 const contact = () => {
   return (
@@ -47,14 +47,13 @@ const contact = () => {
                   name="message"
                   id="message"
                   className="border-2 border-primary rounded-2xl focus:outline-none w-full px-3 py-2 mt-2"
-                  cols="30"
-                  rows="10"
+                  rows="7"
                   placeholder="Enter your message for us!"
                 ></textarea>
               </div>
             </div>
             <div className="justify-start items-center">
-              <OutlineGreen>send message</OutlineGreen>
+              <SolidGreenDefault>send message</SolidGreenDefault>
             </div>
           </div>
         </div>

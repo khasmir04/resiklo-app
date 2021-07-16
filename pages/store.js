@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import LayoutHome from "../components/Layout/LayoutHome";
-import OutlineGreen from "../components/Buttons/OutlineGreen";
+import SolidBlack from "../components/Buttons/SolidBlack";
 
 const store = () => {
   return (
@@ -65,7 +65,7 @@ const store = () => {
                   Monday-Saturday 9:00 am
                 </p>
               </div>
-              <OutlineGreen>contact</OutlineGreen>
+              <SolidBlack>contact</SolidBlack>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const map = () => {
               className="w-full border-2 border-primary text-primary rounded-2xl focus:outline-none py-2 px-4"
             />
             <div className="flex justify-center items-center mt-8 gap-2">
-              <p className="uppercase text-primary-dark font-medium text-sm font-rubik">
+              <p className="uppercase text-primary-dark font-medium text-sm font-rubik mr-7">
                 filter by
               </p>
               <div class="relative inline-flex mr-7">
