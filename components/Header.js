@@ -11,14 +11,14 @@ const Header = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-primary p-4 fixed w-full z-20 top-0 shadow">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <a
-          className="text-white no-underline hover:text-white hover:no-underline"
-          href="#"
+        <Link
+          className="text-white no-underline hover:text-white hover:no-underline cursor-pointer"
+          href="/"
         >
-          <span className="text-2xl font-medium pl-2">
+          <a className="text-2xl font-medium pl-2">
             <i className="em em-grinning" /> Resiklo
-          </span>
-        </a>
+          </a>
+        </Link>
       </div>
       <div className="block lg:hidden">
         <button
@@ -45,14 +45,14 @@ const Header = () => {
       >
         <ul className="list-reset lg:flex justify-start flex-1 items-center">
           <li className="mr-3 ml-auto">
-            <Link href="/#">
+            <Link href="/">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Home
               </a>
             </Link>
           </li>
           <li className="mr-3">
-            <Link href="/#">
+            <Link href="/market">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Market
               </a>
@@ -73,7 +73,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="mr-3">
-            <Link href="/#">
+            <Link href="/contact">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Contact Us
               </a>
