@@ -21,7 +21,7 @@ const missions = () => {
           <p className="font-rubik text-tertiary font-medium text-2xl mb-6">Daily Missions</p>
           <div className="flex flex-wrap">
             <div className="flex-grow md:w-1/2 p-5">
-              <div className="flex items-center bg-white rounded-[20px] shadow-xl p-8">
+              <div className="flex items-center bg-white rounded-[20px] shadow-xl p-8 transition duration-100 hover:scale-105 cursor-pointer">
                 <Image src="/assets/img/profile/mission-incomplete.png" width={70} height={70}></Image>
                 <div className="ml-6">
                   <p className="font-bold text-lg">Collect 10 Plastic bottles</p>
@@ -30,7 +30,7 @@ const missions = () => {
               </div>
             </div>
             <div className="flex-grow md:w-1/2 p-5">
-              <div className="flex items-center bg-secondary rounded-[20px] shadow-xl p-8">
+              <div className="flex items-center bg-secondary rounded-[20px] shadow-xl p-8 transition duration-100 hover:scale-105 cursor-pointer">
                 <Image src="/assets/img/profile/mission-complete.png" width={70} height={70}></Image>
                 <div className="ml-6">
                   <p className="font-bold text-lg">Good Job! 10 Plastic bottles collected</p>
@@ -39,7 +39,7 @@ const missions = () => {
               </div>
             </div>
             <div className="flex-grow md:w-1/2 p-5">
-              <div className="flex items-center bg-secondary rounded-[20px] shadow-xl p-8">
+              <div className="flex items-center bg-secondary rounded-[20px] shadow-xl p-8 transition duration-100 hover:scale-105 cursor-pointer">
                 <Image src="/assets/img/profile/mission-complete.png" width={70} height={70}></Image>
                 <div className="ml-6">
                   <p className="font-bold text-lg">Good Job! 10 Plastic bottles collected</p>
@@ -48,7 +48,7 @@ const missions = () => {
               </div>
             </div>
             <div className="flex-grow md:w-1/2 p-5">
-              <div className="flex items-center bg-white rounded-[20px] shadow-xl p-8">
+              <div className="flex items-center bg-white rounded-[20px] shadow-xl p-8 transition duration-100 hover:scale-105 cursor-pointer">
                 <Image src="/assets/img/profile/mission-incomplete.png" width={70} height={70}></Image>
                 <div className="ml-6">
                   <p className="font-bold text-lg">Collect 10 Plastic bottles</p>

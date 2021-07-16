@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import SolidBlack from "./Buttons/SolidBlack";
+import Image from "next/image"
 
 const HeaderUser = () => {
   const [navbar, setNavbar] = useState(true);
@@ -16,7 +17,7 @@ const HeaderUser = () => {
           href="/"
         >
           <a className="text-2xl font-medium pl-2">
-            <i className="em em-grinning" /> Resiklo
+            <Image src="/assets/img/logo-header.png" alt="logo" width={174.83} height="60" ></Image>
           </a>
         </Link>
       </div>
@@ -66,7 +67,7 @@ const HeaderUser = () => {
             </Link>
           </li>
           <li className="mr-3">
-            <Link href="/#">
+            <Link href="/education">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Education
               </a>

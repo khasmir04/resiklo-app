@@ -9,11 +9,11 @@ const profile = () => {
     <LayoutUser title="Profile">
       <section className="container px-5 py-5 lg:py-24 mx-auto mt-20">
         <div className="flex justify-center items-center mx-auto py-10 bg-secondary rounded-[20px] mb-20">
-          <div className="mr-[76px] flex items-center justify-center">
+          <div className="lg:mr-[76px] p-3 lg:p-0 flex items-center justify-center">
             <Image width={154} height={154} src="/assets/img/profile-avatar.png"></Image>
           </div>
           <div className="">
-            <h3 className="font-rubik font-bold text-5xl text-primary-dark mb-2">Hello (Profile Name) !</h3>
+            <h3 className="font-rubik font-bold text-3xl lg:text-5xl text-primary-dark mb-2">Hello (Profile Name) !</h3>
             <p className="font-bold text-lg uppercase mb-4">
               LEVEL 100       |       (NO. OF POINTS) EARNED
             </p>
@@ -35,6 +35,8 @@ const profile = () => {
               <div className="ml-5">
                 <p className="font-bold text-lg uppercase">In Progress</p>
                 <p className="text-lg">1.5kg Plastic Bottles to ABC Junk Store</p>
+                <p className="text-lg text-tertiary italic">Expires in: Date</p>
+
               </div>
             </div>
             <div className="bg-[#BBFBF7] rounded-[20px] flex justify-start items-center py-4 px-9 mb-6 cursor-pointer transform hover:scale-105 duration-100 shadow-xl">
@@ -42,6 +44,8 @@ const profile = () => {
               <div className="ml-5">
                 <p className="font-bold text-lg uppercase">Waiting for Payment</p>
                 <p className="text-lg">1.5kg Plastic Bottles to ABC Junk Store</p>
+                <p className="text-lg text-tertiary italic">Expires in: Date</p>
+
               </div>
             </div>
           </div>

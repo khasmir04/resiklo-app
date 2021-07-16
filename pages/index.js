@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 
 import Image from "next/image";
+import Link from "next/link";
 import SolidBlack from "../components/Buttons/SolidBlack";
 
 export default function Home() {
@@ -43,30 +44,27 @@ export default function Home() {
   return (
     <LayoutHome title="Home">
       <section id="home" className="bg-primary">
-        <div className="container m-auto flex px-5 py-5 lg:py-24 md:flex-row flex-col-reverse items-center h-screen">
+        <div className="container m-auto mt-20 md:mt-auto flex px-5 py-5 lg:py-24 md:flex-row flex-col-reverse items-center h-screen">
           <div className="w-full lg:w-1/2 lg:px-24 md:px-16 ">
             <div className="flex flex-col md:items-start md:text-left items-center text-center mx-auto">
               <h1 className="text-5xl lg:text-7xl mb-5 font-bold text-white">
-                Reduce, Reuse, Recycle
+                Let&apos;s sort it out
               </h1>
               <p className="mb-20 leading-relaxed text-white text-lg">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.
+                Resiklo is an app designed to help reduce pollutants caused by human activity by inviting people to collect and segregate their trash in exchange of leaf points, which they can use to redeem rewards.
               </p>
               <div className="flex justify-center">
                 <SolidBlack>learn more</SolidBlack>
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 p-20 lg:p-0 mt-20 lg:mt-0 flex justify-center items-center">
+          <div className="w-full lg:w-1/2 lg:p-0 mt-20 md:mt-0 flex justify-center items-center">
             <Image
               className="object-cover object-center rounded"
-              width={500}
-              height={500}
+              width={735}
+              height={591}
               alt="hero"
-              src="/assets/img/500x500.png"
+              src="/assets/img/hero.png"
             />
           </div>
         </div>
@@ -78,10 +76,7 @@ export default function Home() {
               Our Services
             </h1>
             <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod
+              We help individuals & communities be more efficient in recycling and protecting our environment.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -96,7 +91,7 @@ export default function Home() {
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 1
+                    Locations
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
                     {" "}
@@ -156,7 +151,7 @@ export default function Home() {
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 2
+                    Goals
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
                     {" "}
@@ -216,7 +211,7 @@ export default function Home() {
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 3
+                    Rewards
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
                     {" "}
@@ -282,26 +277,24 @@ export default function Home() {
               See What&apos;s Selling
             </h1>
             <p className="font-dmsans lg:w-2/3 mx-auto leading-relaxed text-lg text-black">
-              Currently at the market, here’s what been recently sold. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut
+              Currently at the market, here&apos;s what has been recently sold.
             </p>
           </div>
           <Slider {...settings} className="mb-16">
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastics
+                  Easy Money :&#10091;
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Rose last July 1
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-1.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -309,17 +302,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Bottles
+                  Save the earth
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Jani last July 5
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-2.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -327,17 +320,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Papers
+                  May pera sa Basura
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Gelo last July 6
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-3.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -345,17 +338,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Easy Money :&#10091;
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Rose last July 1
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-1.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -363,17 +356,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Save the earth
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Jani last July 5
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-2.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -381,17 +374,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  May pera sa Basura
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Gelo last July 6
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-3.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -399,17 +392,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Easy Money :&#10091;
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Rose last July 1
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-1.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -417,17 +410,17 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  Save the earth
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Jani last July 5
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-2.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -435,24 +428,28 @@ export default function Home() {
             <div className="shadow-xl">
               <div className="bg-white rounded-[20px] rounded-b-none p-6">
                 <p className="text-center font-rubik font-medium text-2xl">
-                  Plastic
+                  May pera sa Basura
                 </p>
                 <p className="text-center font-dmsans text-lg">
-                  Sold by (Nickname) last (date)
+                  Sold by Gelo last July 6
                 </p>
               </div>
               <Image
                 width={321}
                 height={213}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/selling-3.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
             </div>
           </Slider>
           <div className="text-center">
-            <SolidBlack>go to the market</SolidBlack>
+            <Link href="/market">
+              <a>
+                <SolidBlack>Visit the Market</SolidBlack>
+              </a>
+            </Link>
           </div>
         </div>
       </section>
