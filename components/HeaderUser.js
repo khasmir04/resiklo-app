@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Link from "next/link";
-import SolidGreen from "./Buttons/SolidGreen";
+import SolidBlack from "./Buttons/SolidBlack";
 
-const Header = () => {
+const HeaderUser = () => {
   const [navbar, setNavbar] = useState(true);
 
   const toggleNavbar = () => {
@@ -82,15 +82,15 @@ const Header = () => {
           <li className="mr-3 ml-auto flex">
             <Link href="/profile">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
-                Log In
+                Profile
               </a>
             </Link>
           </li>
-          <SolidGreen>get started</SolidGreen>
+          <SolidBlack>Log out</SolidBlack>
         </ul>
       </div>
     </nav>
   );
 };
 
-export default Header;
+export default HeaderUser;

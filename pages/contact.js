@@ -39,7 +39,7 @@ const contact = () => {
               <div>
                 <label
                   htmlFor="message"
-                  className="font-dmsans font-bold text-black text-lg font-medium mb-2"
+                  className="font-dmsans font-bold text-black text-lg mb-2"
                 >
                   Message
                 </label>
