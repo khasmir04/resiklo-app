@@ -6,46 +6,57 @@ const market = () => {
   return (
     <div id="market">
       <LayoutHome title="Market">
-        <div className="flex flex-col lg:flex-row h-auto py-24 px-10 lg:h-screen lg:items-center">
-          <div className="flex flex-col w-full justify-center lg:w-6/12 order-1 lg:order-0">
-            <h1 className="text-primary-dark font-bold text-5xl lg:text-7xl font-rubik mb-10">
+        <div className="flex flex-col 2xl:flex-row h-auto py-24 px-10 2xl:h-screen 2xl:items-center">
+          <div className="flex flex-col items-center w-full 2xl:w-7/12 order-1 2xl:order-0">
+            <h1 className="text-primary-dark font-bold text-5xl lg:text-7xl font-rubik mb-10 mt-16 2xl:mt-0">
               Welcome to the Market!
             </h1>
-            <p className="text-black text-lg font-dmsans">
-              To start, press one of the options below. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut Lorem ipsum dolor.
+            <p className="text-black text-lg font-dmsans max-w-[800px]">
+              To start, press one of the options below! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Alias quasi porro explicabo
+              atque pariatur velit numquam sed quo doloremque minus, similique
+              quia iure modi dolorem. Magni quos explicabo ut. Libero!
             </p>
-            <div className="flex flex-col mt-20 w-full lg:w-7/12">
+            <div className="flex flex-col mt-20 w-full 2xl:w-7/12 items-center 2xl:items-start justify-start">
               <a
                 href="#"
-                className="flex shadow bg-white rounded-2xl border-2 border-secondary py-4 px-7 mb-5 w"
+                className="flex shadow bg-white rounded-2xl border-2 border-secondary py-4 px-7 mb-5"
               >
-                <img src="" alt="tool-icon" />
+                <Image
+                  src="/assets/img/market/estimate.png"
+                  alt="resiklo-tool-icon"
+                  width="50"
+                  height="62"
+                />
                 <div className="flex flex-col text-secondary-light ml-4">
                   <h3 className="font-medium text-2xl font-rubik">
                     Estimate Tool
                   </h3>
-                  <p className="text-lg font-dmsans">description</p>
+                  <p className="text-lg font-dmsans">Calculate your Wastes</p>
                 </div>
               </a>
               <a
                 href="#"
                 className="flex shadow bg-white rounded-2xl border-2 border-secondary py-4 px-7"
               >
-                <img src="" alt="shop-icon" />
+                <Image
+                  src="/assets/img/market/explore.png"
+                  alt="resiklo-shop-icon"
+                  width="60"
+                  height="64"
+                />
                 <div className="flex flex-col text-secondary-light ml-4">
                   <h3 className="font-medium text-2xl font-rubik">
                     Explore Junk Shops
                   </h3>
-                  <p className="text-lg font-dmsans">description</p>
+                  <p className="text-lg font-dmsans">Visit the Market</p>
                 </div>
               </a>
             </div>
           </div>
-          <div className="market-image flex items-center justify-center w-full mb-5 lg:w-6/12 order-0 lg:order-1">
+          <div className="market-image flex items-center justify-center w-full 2xl:w-5/12 order-0 2xl:order-1">
             <Image
-              src="/assets/img/market.png"
+              src="/assets/img/market/market.png"
               alt="resiklo-market"
               width={803}
               height={513}

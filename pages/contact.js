@@ -6,7 +6,7 @@ import SolidGreenDefault from "../components/Buttons/SolidGreenDefault";
 const contact = () => {
   return (
     <div id="contact">
-      <LayoutHome title="Contact">
+      <LayoutHome title="Contact Us">
         <div className="flex items-center justify-center py-40 backdrop-blur-[3px]">
           <div className="shadow flex flex-col justify-center mx-auto items-center bg-white rounded-2xl py-11 px-5 xl:px-28 w-full max-w-[300px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1100px] gap-10">
             <h2 className="font-rubik font-bold text-7xl text-primary-dark mb-10">
@@ -22,17 +22,17 @@ const contact = () => {
               <div className="flex flex-row flex-wrap items-center mb-10">
                 <FormInput
                   type="text"
-                  placeholder="Enter your first name"
+                  placeholder="Enter your First Name"
                   label="First Name"
                 ></FormInput>
                 <FormInput
                   type="text"
-                  placeholder="Enter your last name"
+                  placeholder="Enter your Last Name"
                   label="Last Name"
                 ></FormInput>
                 <FormInput
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder="Enter your Email Address"
                   label="Email Address"
                 ></FormInput>
               </div>
