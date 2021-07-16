@@ -63,10 +63,10 @@ export default function Home() {
           <div className="w-full lg:w-1/2 p-20 lg:p-0 mt-20 lg:mt-0 flex justify-center items-center">
             <Image
               className="object-cover object-center rounded"
-              width={500}
-              height={500}
+              width={735}
+              height={591}
               alt="hero"
-              src="/assets/img/500x500.png"
+              src="/assets/img/home/hero.png"
             />
           </div>
         </div>
@@ -89,20 +89,18 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 object-cover object-center"
+                  src="/assets/img/home/locations.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 1
+                    Locations
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
-                    {" "}
-                    consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    deserunt mollit anim id est laborum.
+                    Search for junk shops near you and pinpoint them on our map
+                    to find out what they accept and their hours of operation.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500">
@@ -149,20 +147,18 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 object-cover object-center"
+                  src="/assets/img/home/goals.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 2
+                    Goals
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
-                    {" "}
-                    consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    deserunt mollit anim id est laborum.
+                    Set your goal, participate in the initiatives to help
+                    protect the environment and reduce pollution.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500">
@@ -209,20 +205,19 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <Image
                   alt="team"
-                  width={288}
-                  height={268}
-                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 !border-solid !border-8 !border-primary object-cover object-center"
-                  src="/assets/img/500x500.png"
+                  width={300}
+                  height={300}
+                  className="services-img flex-shrink-0 rounded-[96px] w-full h-56 object-cover object-center"
+                  src="/assets/img/home/rewards.png"
                 />
                 <div className="w-full mt-6">
                   <h3 className="font-rubik font-bold text-4xl text-primary-dark mb-3">
-                    Service 3
+                    Rewards
                   </h3>
                   <p className="font-dmsans mb-4 text-lg px-20">
-                    {" "}
-                    consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    deserunt mollit anim id est laborum.
+                    Community is important to us, that's why we've created an
+                    opportunity for you to get rewards for your actions against
+                    pollution.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500">
@@ -291,10 +286,10 @@ export default function Home() {
                 </p>
               </div>
               <Image
-                width={321}
-                height={213}
+                width={401}
+                height={266}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/home/carousel1.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -309,10 +304,10 @@ export default function Home() {
                 </p>
               </div>
               <Image
-                width={321}
-                height={213}
+                width={401}
+                height={266}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/home/carousel2.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -327,10 +322,10 @@ export default function Home() {
                 </p>
               </div>
               <Image
-                width={321}
-                height={213}
+                width={401}
+                height={266}
                 layout="responsive"
-                src="/assets/img/500x500.png"
+                src="/assets/img/home/carousel3.png"
                 className="object-cover"
               ></Image>
               <div className="text-white bg-white rounded-[20px] rounded-t-none p-6"></div>
@@ -445,7 +440,7 @@ export default function Home() {
             </div>
           </Slider>
           <div className="text-center">
-            <SolidBlack>go to the market</SolidBlack>
+            <SolidBlack>visit the market</SolidBlack>
           </div>
         </div>
       </section>

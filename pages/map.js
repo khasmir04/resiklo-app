@@ -1,6 +1,7 @@
 import React from "react";
 import FormInput from "../components/Input/FormInput";
 import LayoutHome from "../components/Layout/LayoutHome";
+import Image from "next/image";
 
 const map = () => {
   return (
@@ -8,11 +9,13 @@ const map = () => {
       <LayoutHome title="Shop Locator">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-white p-5 rounded-2xl fixed z-10 w-screen md:max-w-[650px] xl:max-w-[900px]">
-            <input
-              type="text"
-              placeholder="What junk shops are you looking for?"
-              className="w-full border-2 border-primary text-primary rounded-2xl focus:outline-none py-2 px-4"
-            />
+            <div className="flex">
+              <input
+                type="text"
+                placeholder="What junk shops are you looking for?"
+                className="w-full border-2 border-primary text-primary rounded-2xl focus:outline-none py-2 px-4"
+              />
+            </div>
             <div className="flex justify-center items-center mt-8 gap-2">
               <p className="uppercase text-primary-dark font-medium text-sm font-rubik mr-7">
                 filter by

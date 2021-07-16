@@ -68,3 +68,10 @@ select {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#home {
+  background-image: url(../assets/img/home/bghero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

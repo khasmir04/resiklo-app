@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutHome from "../components/Layout/LayoutHome";
 import Image from "next/image";
-import SolidGreenDefault from "../components/Buttons/SolidGreenDefault";
+import TertiaryGreen from "../components/Buttons/TertiaryGreen";
 
 const education = () => {
   return (
@@ -81,14 +81,14 @@ const education = () => {
 
       <section
         id="education-videos"
-        className="container mx-auto flex flex-col px-5 py-10 h-full items-center"
+        className="container mx-auto flex flex-col px-5 py-10 pb-56 h-full items-center"
       >
         <h1 className="font-rubik font-bold text-5xl lg:text-7xl text-primary-dark text-center mb-16">
           Watch about Recycling
         </h1>
         <div className="flex flex-col lg:flex-row">
           <Image
-            src="/assets/img/500x500.png"
+            src="/assets/img/education/video1.png"
             alt="resiklo-market"
             width="770"
             height="477"
@@ -99,21 +99,21 @@ const education = () => {
               View Playlist
             </h3>
             <Image
-              src="/assets/img/500x500.png"
+              src="/assets/img/education/video2.png"
               alt="resiklo-market"
               width="273"
               height="135"
               className="rounded-2xl object-cover mb-3"
             />
             <Image
-              src="/assets/img/500x500.png"
+              src="/assets/img/education/video3.png"
               alt="resiklo-market"
               width="273"
               height="135"
               className="rounded-2xl object-cover mb-3"
             />
             <Image
-              src="/assets/img/500x500.png"
+              src="/assets/img/education/video4.png"
               alt="resiklo-market"
               width="273"
               height="135"
@@ -155,7 +155,7 @@ const education = () => {
                     industrialization and urbanization.
                   </div>
                   <div className="text-right">
-                    <SolidGreenDefault>read more</SolidGreenDefault>
+                    <TertiaryGreen>read more</TertiaryGreen>
                   </div>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const education = () => {
                     incididunt ut labore et dolore
                   </div>
                   <div className="text-right">
-                    <SolidGreenDefault>read more</SolidGreenDefault>
+                    <TertiaryGreen>read more</TertiaryGreen>
                   </div>
                 </div>
               </div>
@@ -209,7 +209,7 @@ const education = () => {
                     incididunt ut labore et dolore
                   </div>
                   <div className="text-right">
-                    <SolidGreenDefault>read more</SolidGreenDefault>
+                    <TertiaryGreen>read more</TertiaryGreen>
                   </div>
                 </div>
               </div>

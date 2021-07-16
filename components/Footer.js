@@ -5,25 +5,29 @@ const Footer = () => {
     <footer className="flex flex-col w-full">
       <div className="flex flex-col justify-around md:items-center md:flex-row bg-primary-dark px-5 py-16 gap-24">
         <div className="flex flex-col text-white font-dm text-lg">
-          <a href="#home" className="-ml-3 mb-3">
-            <Image
-              src="/assets/img/resiklo-logo.png"
-              alt="resiklo-logo"
-              width="130"
-              height="130"
-            />
-          </a>
-          <p className="font-medium mb-3">Reduce, Reuse, Recycle</p>
+          <div className="flex items-center mb-6">
+            <a href="#home" className="-ml-3 mb-3">
+              <Image
+                src="/assets/img/resiklo-logo.png"
+                alt="resiklo-logo"
+                width="79"
+                height="79"
+              />
+            </a>
+            <p className="font-rubik font-medium text-2xl mb-3 ml-5">
+              A Hiraya Project
+            </p>
+          </div>
           <p className="max-w-[300px] xl:max-w-[450px] mb-6">
             Resiklo PH is designed to help reduce pollutants caused by human
             activity by inviting people to collect and segregate their trash in
             exchange of leaf points.
           </p>
-          <p className="max-w-[300px] xl:max-w-[450px]">
+          <p className="text-white max-w-[300px] xl:max-w-[450px]">
             Copyright Resiklo PH 2021
           </p>
         </div>
-        <div className="flex flex-col text-white font-dm text-lg">
+        <div className="flex flex-col text-white font-dm text-lg ">
           <h2 className="font-bold text-2xl font-rubik mb-4">Stay connected</h2>
           <p className="max-w-[300px] xl:max-w-[450px]">
             We’re looking forward to hear from you! Visit our social media links
