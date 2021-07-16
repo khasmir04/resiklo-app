@@ -16,15 +16,20 @@ module.exports = {
           dark: "#97ED8A",
         },
         tertiary: {
-          light: "#85d7ff",
-          DEFAULT: "#1fb6ff",
-          dark: "#009eeb",
+          light: '#85d7ff',
+          DEFAULT: '#16B039',
+          dark: '#009eeb',
         },
         black: {
-          light: "#00261C",
-          DEFAULT: "#00261C",
-          dark: "#00261C",
+          light: '#00261C',
+          DEFAULT: '#1C1C1E',
+          dark: '#00261C',
         },
+        gray: {
+          light: '#8E8E93',
+          DEFAULT: '#8E8E93',
+          dark: '#8E8E93',
+        }
       },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],

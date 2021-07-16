@@ -47,8 +47,8 @@ const market = () => {
             <Image
               src="/assets/img/market.png"
               alt="resiklo-market"
-              width="2000"
-              height="1500"
+              width={803}
+              height={513}
             />
           </div>
         </div>
