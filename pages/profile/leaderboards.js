@@ -6,33 +6,35 @@ import SolidBlack from "../../components/Buttons/SolidBlack";
 
 const leaderboards = () => {
   return (
-    <div>
-      <div className="flex flex-wrap md:justify-center lg:justify-end">
+    <LayoutUser title="Leaderboards">
+      <section className="container px-5 py-5 lg:py-24 mx-auto mt-20">
         <div className="flex flex-wrap md:justify-center lg:justify-end">
-          <div className="mr-5 mb-5 md:mb-0">
-            <Link href="/profile">
-              <a>
-                <SolidBlack className="uppercase">&lt; Back to Profile</SolidBlack>
-              </a>
-            </Link>
-          </div>
-          <div className="mr-5 mb-5 md:mb-0">
-            <Link href="/profile/leaderboards">
-              <a>
-                <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
-              </a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/profile/rewards">
-              <a>
-                <SolidBlack className="uppercase">Go to Rewards &gt;</SolidBlack>
-              </a>
-            </Link>
+          <div className="flex flex-wrap md:justify-center lg:justify-end">
+            <div className="mr-5 mb-5 md:mb-0">
+              <Link href="/profile">
+                <a>
+                  <SolidBlack className="uppercase">&lt; Back to Profile</SolidBlack>
+                </a>
+              </Link>
+            </div>
+            <div className="mr-5 mb-5 md:mb-0">
+              <Link href="/profile/leaderboards">
+                <a>
+                  <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
+                </a>
+              </Link>
+            </div>
+            <div>
+              <Link href="/profile/rewards">
+                <a>
+                  <SolidBlack className="uppercase">Go to Rewards &gt;</SolidBlack>
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </LayoutUser>
   )
 }
 
