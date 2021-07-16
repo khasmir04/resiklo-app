@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-import SolidGreen from "./Buttons/SolidGreen";
+import SolidGreenDefault from "./Buttons/SolidGreenDefault";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(true);
@@ -86,7 +86,7 @@ const Header = () => {
               </a>
             </Link>
           </li>
-          <SolidGreen>get started</SolidGreen>
+          <SolidGreenDefault>get started</SolidGreenDefault>
         </ul>
       </div>
     </nav>

@@ -23,6 +23,12 @@ h3 {
 #map input::placeholder {
   color: #45bf55;
 }
+
+#estimator select,
+#map select {
+  color: #8e8e93;
+}
+
 .slick-slide > div {
   margin: 0 10px;
 }

@@ -2,9 +2,9 @@ import React from "react";
 
 const FormInput = (props) => {
   return (
-    <div className="flex flex-col mb-5 mr-3 w-full">
+    <div className="flex flex-col mb-5 w-full lg:w-3/12 mr-14">
       <label
-        className="font-dmsans font-bold text-black text-lg font-medium mb-2"
+        className="font-dmsans text-black text-lg font-bold mb-2"
         htmlFor={props.label}
       >
         {props.label}
