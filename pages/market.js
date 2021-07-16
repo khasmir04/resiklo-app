@@ -5,7 +5,7 @@ const market = () => {
   return (
     <div id="market">
       <LayoutHome title="Market">
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center justify-center p-32">
           <h1 className="text-primary-dark font-bold text-7xl font-rubik">
             Welcome to the Market!
           </h1>

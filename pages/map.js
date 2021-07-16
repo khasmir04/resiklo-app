@@ -37,11 +37,11 @@ const map = () => {
             </div>
           </div>
           <div className="pt-20">
-            <div class="mapouter relative text-right h-[516px] w-screen">
+            <div class="mapouter relative text-right h-screen w-screen">
               <div className="gmap_canvas">
                 <iframe
                   id="gmap_canvas"
-                  className="overflow-hidden bg-transparent h-[516px] w-screen"
+                  className="overflow-hidden bg-transparent h-screen w-screen"
                   src="https://maps.google.com/maps?q=Payatas&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="no"
