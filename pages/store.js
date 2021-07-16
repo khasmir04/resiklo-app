@@ -6,27 +6,30 @@ import SolidBlack from "../components/Buttons/SolidBlack";
 const store = () => {
   return (
     <div id="store">
-      <LayoutHome>
+      <LayoutHome title="Shop Profile">
         <div className="flex flex-col items-center">
-          <div className="gallery flex pt-40">
+          <div className="gallery flex pt-40 w-full justify-center gap-10">
             <Image
-              src="/assets/img/market.png"
+              src="/assets/img/500x500.png"
               alt="resiklo-market"
               width="400"
               height="300"
+              className="rounded-2xl"
             />
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-7">
               <Image
-                src="/assets/img/market.png"
+                src="/assets/img/500x500.png"
                 alt="resiklo-market"
                 width="400"
                 height="300"
+                className="rounded-2xl"
               />
               <Image
-                src="/assets/img/market.png"
+                src="/assets/img/500x500.png"
                 alt="resiklo-market"
                 width="400"
                 height="300"
+                className="rounded-2xl"
               />
             </div>
           </div>
@@ -40,7 +43,7 @@ const store = () => {
               </p>
             </div>
             <h3 className="text-secondary-light font-rubik font-medium text-2xl my-2">
-              Description
+              About
             </h3>
             <p className="font-dmsans text-lg mb-5">
               Here is a short description of the Name of Junk Store. Lorem ipsum

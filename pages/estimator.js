@@ -6,8 +6,8 @@ import FormInput from "../components/Input/FormInput";
 const estimator = () => {
   return (
     <div id="estimator">
-      <LayoutHome>
-        <div className="flex items-center lg:flex-col justify-center h-screen w-9/12">
+      <LayoutHome title="Estimator">
+        <div className="container flex items-center lg:flex-col justify-center h-screen w-9/12">
           <div className="flex flex-col">
             <h2 className="font-rubik font-bold text-primary-dark text-7xl mb-12">
               Estimate your <br />

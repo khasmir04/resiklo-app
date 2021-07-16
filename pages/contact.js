@@ -22,17 +22,17 @@ const contact = () => {
               <div className="flex flex-row flex-wrap items-center mb-10">
                 <FormInput
                   type="text"
-                  placeholder="Enter your first name"
+                  placeholder="Enter your First Name"
                   label="First Name"
                 ></FormInput>
                 <FormInput
                   type="text"
-                  placeholder="Enter your last name"
+                  placeholder="Enter your Last Name"
                   label="Last Name"
                 ></FormInput>
                 <FormInput
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder="Enter your Email Address"
                   label="Email Address"
                 ></FormInput>
               </div>
