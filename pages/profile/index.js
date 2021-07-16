@@ -29,7 +29,6 @@ const profile = () => {
               <Link href="/profile#">
                 <a className="text-gray font-bold text-right text-lg hover:text-tertiary uppercase">See All</a>
               </Link>
-
             </div>
             <div className="bg-[#FFCE40] rounded-[20px] flex justify-start items-center py-4 px-9 mb-6 cursor-pointer transform hover:scale-105 duration-100 shadow-xl">
               <Image width={74} height={74} src="/assets/img/profile/clock.png"></Image>
@@ -74,13 +73,25 @@ const profile = () => {
         </div>
         <div className="flex flex-wrap md:justify-center lg:justify-end">
           <div className="mr-5 mb-5 md:mb-0">
-            <SolidBlack className="uppercase">Do Missions &gt;</SolidBlack>
+            <Link href="/profile/missions">
+              <a>
+                <SolidBlack className="uppercase">Do Missions &gt;</SolidBlack>
+              </a>
+            </Link>
           </div>
           <div className="mr-5 mb-5 md:mb-0">
-            <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
+            <Link href="/profile/leaderboards">
+              <a>
+                <SolidBlack className="uppercase">See Leaderboards &gt;</SolidBlack>
+              </a>
+            </Link>
           </div>
           <div>
-            <SolidBlack className="uppercase">Go to Rewards &gt;</SolidBlack>
+            <Link href="/profile/rewards">
+              <a>
+                <SolidBlack className="uppercase">Go to Rewards &gt;</SolidBlack>
+              </a>
+            </Link>
           </div>
         </div>
       </section>

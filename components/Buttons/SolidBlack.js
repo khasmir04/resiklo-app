@@ -1,4 +1,4 @@
-const SolidBlack = (props) => {
+const SolidBlack = (props, ref) => {
   return (
     <a
       href={props.link}
