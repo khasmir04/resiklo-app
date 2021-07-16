@@ -17,23 +17,49 @@ const map = () => {
               <p className="uppercase text-primary-dark font-medium text-sm font-rubik">
                 filter by
               </p>
-              <select
-                id="category"
-                className="focus:outline-none border-gray rounded-2xl"
-                name="category"
-              >
-                <option value="biodegradable">Biodegradable</option>
-                <option value="non-biodegradable">Non-Biodegradable</option>
-              </select>
-              <select
-                id="type"
-                className="focus:outline-none border-gray rounded-2xl"
-                ame="type"
-              >
-                <option value="bottle">Bottle</option>
-                <option value="plastic">Plastic</option>
-                <option value="paper">Paper</option>
-              </select>
+              <div class="relative inline-flex mr-7">
+                <svg
+                  class="w-3 h-3 absolute top-0 right-0 m-4 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 412 232"
+                >
+                  <path
+                    d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z"
+                    fill="#648299"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+                <select
+                  class="border border-gray-500 rounded-2xl py-2 px-3 focus:outline-none appearance-none mr-2"
+                  placeholder="Select your Waste"
+                >
+                  <option>Non-Biodegradable / Biodegradable</option>
+                  <option>Non-Biodegradable</option>
+                  <option>Biodegradable</option>
+                </select>
+              </div>
+              <div class="relative inline-flex">
+                <svg
+                  class="w-3 h-3 absolute top-0 right-0 m-4 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 412 232"
+                >
+                  <path
+                    d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z"
+                    fill="#648299"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+                <select
+                  class="border border-gray-500 rounded-2xl py-2 px-3 focus:outline-none appearance-none mr-2"
+                  placeholder="Select your Waste"
+                >
+                  <option>Type of Trash</option>
+                  <option>Plastics</option>
+                  <option>Bottles</option>
+                  <option>Papers</option>
+                </select>
+              </div>
             </div>
           </div>
           <div className="pt-20">

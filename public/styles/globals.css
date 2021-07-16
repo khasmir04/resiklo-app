@@ -23,7 +23,8 @@ h3 {
   color: #45bf55;
 }
 
-#estimator select {
+#estimator select,
+#map select {
   color: #8e8e93;
 }
 
