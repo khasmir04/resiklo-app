@@ -53,6 +53,7 @@ Connect with us🤝:
   <img align="left" alt="Khasmir's Github" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
   Khasmir
 </a>
+<br/>
 <a href="https://github.com/jmbanasihan">
   <img align="left" alt="Janiel's Github" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
   Janiel
