@@ -17,11 +17,8 @@ const market = () => {
               atque pariatur velit numquam sed quo doloremque minus, similique
               quia iure modi dolorem. Magni quos explicabo ut. Libero!
             </p>
-            <div className="flex flex-col mt-20 w-full 2xl:w-7/12 items-center 2xl:items-start justify-start">
-              <a
-                href="#"
-                className="flex shadow bg-white rounded-2xl border-2 border-secondary py-4 px-7 mb-5"
-              >
+            <div className="flex flex-col mt-20 w-full 2xl:w-7/12 items-center 2xl:items-start justify-start md:px-40 lg:px-72 xl:px-96 2xl:px-[120px]">
+              <div className="flex shadow bg-white rounded-2xl border-2 border-secondary w-full py-4 px-7 mb-5">
                 <Image
                   src="/assets/img/market/estimate.png"
                   alt="resiklo-tool-icon"
@@ -34,11 +31,8 @@ const market = () => {
                   </h3>
                   <p className="text-lg font-dmsans">Calculate your Wastes</p>
                 </div>
-              </a>
-              <a
-                href="#"
-                className="flex shadow bg-white rounded-2xl border-2 border-secondary py-4 px-7"
-              >
+              </div>
+              <div className="flex shadow bg-white rounded-2xl border-2 border-secondary w-full py-4 px-7">
                 <Image
                   src="/assets/img/market/explore.png"
                   alt="resiklo-shop-icon"
@@ -51,7 +45,7 @@ const market = () => {
                   </h3>
                   <p className="text-lg font-dmsans">Visit the Market</p>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div className="market-image flex items-center justify-center w-full 2xl:w-5/12 order-0 2xl:order-1">

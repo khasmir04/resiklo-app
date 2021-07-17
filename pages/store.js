@@ -8,7 +8,7 @@ const store = () => {
     <div id="store">
       <LayoutHome title="Shop Profile">
         <div className="flex flex-col items-center">
-          <div className="gallery flex pt-40 w-full justify-center gap-10">
+          <div className="gallery md:flex pt-40 w-full justify-center gap-10">
             <Image
               src="/assets/img/store/main.png"
               alt="resiklo-market"
@@ -36,10 +36,10 @@ const store = () => {
           <div className="shadow-2xl -mt-40 z-10 store-profile flex flex-col bg-white rounded-2xl py-14 px-16 justify-center max-w-[300px] md:max-w-[700px] xl:max-w-[1198px] mb-16">
             <div className="flex flex-col items-start xl:flex-row xl:items-center xl:justify-between">
               <h2 className="font-rubik font-bold text-5xl xl:text-7xl text-primary-dark mb-6">
-                Junk Shop
+                ABC Junk Shop
               </h2>
               <p className="text-primary-dark font-bold text-lg font-dmsans text-right">
-                Quezon City
+                Metro Manila
               </p>
             </div>
             <h3 className="text-secondary-light font-rubik font-medium text-2xl my-2">

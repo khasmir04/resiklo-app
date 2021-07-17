@@ -17,7 +17,7 @@ h6 {
 }
 
 #contact {
-  background-image: url(../assets/img/leaves.jpg);
+  background-image: url(../assets/img/contact/leaves.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -74,4 +74,18 @@ select {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+#education-climate {
+  background-image: url(../assets/img/education/climate-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#home {
+  background-image: url(../assets/img/home/bghero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
