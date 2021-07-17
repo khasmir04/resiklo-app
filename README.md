@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/khasmir04/Resiklo">
+  <a href="https://github.com/khasmir04/resiklo-app">
     <img src="/assets/img/logo-header.png" alt="Logo" width="595" height="621">
   </a>
 
@@ -14,14 +14,14 @@
   </p>
       
   <p align="center">
-    <a href="https://github.com/khasmir04/Resiklo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/khasmir04/resiklo-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/khasmir04/Resiklo">View Demo</a>
+    <a href="https://github.com/khasmir04/resiklo-app">View Demo</a>
     ·
-    <a href="https://github.com/khasmir04/Resiklo/issues">Report Bug</a>
+    <a href="https://github.com/khasmir04/resiklo-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/khasmir04/Resiklo/issues">Request Feature</a>
+    <a href="https://github.com/khasmir04/resiklo-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -129,7 +129,7 @@ https://resiklo.ph/
 
 ## Roadmap
 
-See the [open issues](https://github.com/khasmir04/Resiklo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/khasmir04/resiklo-app/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -155,7 +155,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Khasmir Jhon Caluscusao - [@khasmircortez](https://twitter.com/khasmircortez) - kcaluscusao@gmail.com
 
-Project Link: [https://github.com/khasmir04/Resiklo](https://github.com/khasmir04/Resiklo)
+Project Link: [https://github.com/khasmir04/resiklo-app](https://github.com/khasmir04/resiklo-app)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -169,14 +169,14 @@ Project Link: [https://github.com/khasmir04/Resiklo](https://github.com/khasmir0
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 </details>
  
-[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/Resiklo.svg?style=for-the-badge
-[contributors-url]: https://github.com/khasmir04/Resiklo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/khasmir04/Resiklo.svg?style=for-the-badge
-[forks-url]: https://github.com/khasmir04/Resiklo/network/members
-[stars-shield]: https://img.shields.io/github/stars/khasmir04/Resiklo.svg?style=for-the-badge
-[stars-url]: https://github.com/khasmir04/Resiklo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/khasmir04/Resiklo.svg?style=for-the-badge
-[issues-url]: https://github.com/khasmir04/Resiklo/issues
+[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/resiklo-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/khasmir04/resiklo-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/khasmir04/resiklo-app.svg?style=for-the-badge
+[forks-url]: https://github.com/khasmir04/resiklo-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/khasmir04/resiklo-app.svg?style=for-the-badge
+[stars-url]: https://github.com/khasmir04/resiklo-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/khasmir04/resiklo-app.svg?style=for-the-badge
+[issues-url]: https://github.com/khasmir04/resiklo-app/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [product-screenshot]: /assets/img/Screenshot.png
