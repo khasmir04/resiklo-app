@@ -60,17 +60,17 @@ const Header = () => {
               </a>
             </Link>
             <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
-              <li className>
+              <li>
                 <Link href="/store">
                   <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Store</a>
                 </Link>
               </li>
-              <li className>
+              <li>
                 <Link href="/map">
                   <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Map</a>
                 </Link>
               </li>
-              <li className>
+              <li>
                 <Link href="/estimator">
                   <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Estimator</a>
                 </Link>

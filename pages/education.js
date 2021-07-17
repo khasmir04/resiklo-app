@@ -32,10 +32,7 @@ const education = () => {
               Reduce
             </h2>
             <p className="font-dmsans text-lg text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod
+              Being environmentally conscious is all about being resourceful. It's important to make less waste so there's less impact on our environment. By looking for ways to reduce waste, it won't be as much of an issue in the end.
             </p>
           </div>
 
@@ -51,10 +48,7 @@ const education = () => {
               Reuse
             </h2>
             <p className="font-dmsans text-lg text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod
+              Reuse is the practice of taking something that is no longer needed and using it again in a new way. It helps to reduce waste by finding ways to reuse an item.
             </p>
           </div>
 
@@ -70,10 +64,7 @@ const education = () => {
               Recycle
             </h2>
             <p className="font-dmsans text-lg text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod
+              Recycling is the process of taking used products and turning them into new things. For example, when you put your bottles and cans in recycling bins, the bottles become plastic bottles and the cans become plastic cans.
             </p>
           </div>
         </div>

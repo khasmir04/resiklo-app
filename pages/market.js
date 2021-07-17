@@ -17,33 +17,33 @@ const market = () => {
               atque pariatur velit numquam sed quo doloremque minus, similique
               quia iure modi dolorem. Magni quos explicabo ut. Libero!
             </p>
-            <div className="flex flex-col mt-20 w-full 2xl:w-7/12 items-center 2xl:items-start justify-start md:px-40 lg:px-72 xl:px-96 2xl:px-[120px]">
+            <div className="flex flex-col mt-20 w-full 2xl:w-7/12 items-center 2xl:items-start justify-start">
               <div className="flex shadow bg-white rounded-2xl border-2 border-secondary w-full py-4 px-7 mb-5">
                 <Image
                   src="/assets/img/market/estimate.png"
                   alt="resiklo-tool-icon"
-                  width="50"
-                  height="62"
+                  width="64"
+                  height="64"
                 />
                 <div className="flex flex-col text-secondary-light ml-4">
                   <h3 className="font-medium text-2xl font-rubik">
                     Estimate Tool
                   </h3>
-                  <p className="text-lg font-dmsans">Calculate your Wastes</p>
+                  <p className="text-lg font-dmsans">Calculate your Earnings</p>
                 </div>
               </div>
               <div className="flex shadow bg-white rounded-2xl border-2 border-secondary w-full py-4 px-7">
                 <Image
                   src="/assets/img/market/explore.png"
                   alt="resiklo-shop-icon"
-                  width="60"
+                  width="64"
                   height="64"
                 />
                 <div className="flex flex-col text-secondary-light ml-4">
                   <h3 className="font-medium text-2xl font-rubik">
                     Explore Junk Shops
                   </h3>
-                  <p className="text-lg font-dmsans">Visit the Market</p>
+                  <p className="text-lg font-dmsans">Browse nearby shops</p>
                 </div>
               </div>
             </div>
