@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/khasmir04/resiklo-app">
-    <img src="/assets/img/logo-header.png" alt="Logo" width="595" height="621">
+    <img src="/public/assets/img/logo-header.png" alt="Logo" width="595" height="621">
   </a>
 
   <h3 align="center">RESIKLO</h3>
@@ -30,8 +30,8 @@
 Languages and Tools Used🛠:
 </summary>
   <br/>
-  <code><img height="20" src="/assets/img/tools/nextjs.png"></code>
-  <code><img height="20" src="/assets/img/tools/tailwind.png"></code>
+  <code><img height="20" src="/public/assets/img/tools/nextjs.png"></code>
+  <code><img height="20" src="/public/assets/img/tools/tailwind.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
@@ -179,4 +179,4 @@ Project Link: [https://github.com/khasmir04/resiklo-app](https://github.com/khas
 [issues-url]: https://github.com/khasmir04/resiklo-app/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: /assets/img/Screenshot.png
+[product-screenshot]: /public/assets/img/Screenshot.png
