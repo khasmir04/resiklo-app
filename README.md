@@ -95,7 +95,10 @@ Table of Contents
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://resiklo.ph/)
+
+<p align="center">
 Waste management app. Entry for Impact 2050 Hackathon
+</p>
 
 ### Built With
 

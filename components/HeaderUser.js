@@ -52,15 +52,32 @@ const HeaderUser = () => {
               </a>
             </Link>
           </li>
-          <li className="mr-3">
+          <li className="mr-3 dropdown relative">
             <Link href="/market">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 Market
               </a>
             </Link>
+            <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
+              <li className>
+                <Link href="/store">
+                  <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Store</a>
+                </Link>
+              </li>
+              <li className>
+                <Link href="/map">
+                  <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Map</a>
+                </Link>
+              </li>
+              <li className>
+                <Link href="/estimator">
+                  <a className="text-lg rounded text-white bg-primary border border-gray-300 hover:text-primary-dark py-1 px-4 block whitespace-no-wrap min-w-[120px]">Estimator</a>
+                </Link>
+              </li>
+            </ul>
           </li>
           <li className="mr-3">
-            <Link href="/#">
+            <Link href="/faq">
               <a className="inline-block text-white no-underline hover:text-primary-dark text-xl py-2 px-4">
                 FAQs
               </a>

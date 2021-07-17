@@ -71,3 +71,7 @@ h6 {
 select {
   padding: 0.6em 1.4em 0.5em 0.8em !important;
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
