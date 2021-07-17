@@ -54,7 +54,11 @@ export default function Home() {
                 Resiklo is an app designed to help reduce pollutants caused by human activity by inviting people to collect and segregate their trash in exchange of leaf points, which they can use to redeem rewards.
               </p>
               <div className="flex justify-center">
-                <SolidBlack>learn more</SolidBlack>
+                <Link href="/faq">
+                  <a>
+                    <SolidBlack>learn more</SolidBlack>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/khasmir04/resiklo-app">
-    <img src="/public/assets/img/resiklo-logo.png" alt="Logo" width="300" height="313">
+    <img src="/public/assets/img/resiklo-logo.png" alt="Logo" width="150" height="160">
   </a>
 
   <h3 align="center">RESIKLO</h3>
