@@ -9,14 +9,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta
-            name="Resiklo"
-            content="Resiklo"
-          />
-          <meta
-            name="description"
-            content="Resiklo"
-          />
+          <meta name="Resiklo" content="Resiklo" />
+          <meta name="description" content="Resiklo" />
           <link rel="icon" href="/fav.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
@@ -32,6 +26,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <div id="subpages-sidebar" />
+
           <NextScript />
         </body>
       </Html>
