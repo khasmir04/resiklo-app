@@ -7,7 +7,7 @@ const map = () => {
   return (
     <div id="map">
       <LayoutHome title="Shop Locator">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center overflow-x-hidden">
           <div className="bg-white p-5 rounded-2xl fixed z-10 w-screen md:max-w-[650px] xl:max-w-[900px]">
             <div className="flex">
               <input
@@ -72,10 +72,10 @@ const map = () => {
                   id="gmap_canvas"
                   className="overflow-hidden bg-transparent h-screen w-screen"
                   src="https://maps.google.com/maps?q=Payatas&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
+                  frameBorder="0"
                   scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
+                  marginHeight="0"
+                  marginWidth="0"
                 ></iframe>
               </div>
             </div>
