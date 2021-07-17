@@ -11,7 +11,7 @@ const FormInput = (props) => {
       </label>
       <input
         id={props.label}
-        className={`border-2 border-primary rounded-2xl focus:outline-none w-full py-2 px-3`}
+        className="border-2 border-primary rounded-2xl focus:outline-none w-full py-2 px-3"
         type={props.type}
         placeholder={props.placeholder}
       ></input>
